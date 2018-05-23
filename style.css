@@ -4,7 +4,7 @@
 }
 h5{
 	text-align: center;
-	font-size: 50px;
+	font-size: 40px;
 	padding-top: 50px;
 	margin-top: 30px;
 }
@@ -100,6 +100,10 @@ h5{
 	text-align:center;
 	padding: 20px 10px;
 
+}
+#work{
+	font-size: 20px;
+	text-align: center;
 }
 
 
