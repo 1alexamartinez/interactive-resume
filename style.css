@@ -4,7 +4,7 @@
 }
 h5{
 	text-align: center;
-	font-size: 40px;
+	font-size: 30px;
 	padding-top: 50px;
 	margin-top: 30px;
 }
@@ -89,7 +89,7 @@ h5{
 	color:orange;
 }
 #p1{
-	font-size: 50px;
+	font-size: 30px;
 	margin: 110px;
 }
 
@@ -158,8 +158,32 @@ h5{
 
 
 
+/*iphone 8 plus queries*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+	and (-webkit-device-pixel-ratio : 3) { }
 
 
+
+/*iphone 11 and 10r*/
+	@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { }
+
+/* iphone 11pro and 10s */
+@media only screen 
+and (device-width: 375px) 
+and (device-height: 812px) 
+and (-webkit-device-pixel-ratio: 3) { }
+
+
+/* 11 pro max and 10s max */
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) { }
 
 /*--- iOS Landing Page Fix
 section {
